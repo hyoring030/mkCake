@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>"My Birth-Dayyy"</title>
+
+    </head>
+
+    <body>
+        <button  onClick="location.href='CreateCake.html'"" > Create My Cake
+        </button>
+        <br>
+        <button onClick="location.href='WriteMsg.html'" > Write </button>
+        <br>
+        <button onClick="location.href='ReadMsg.html'" > Read </button>
+        <br>
+        <button onclick="alert('복사 완료!');CopyUrlToClipboard()"> Share </button>
+
+    </body>
+    <script>
+        function CopyUrlToClipboard(){
+        var dummy   = document.createElement("input");
+        var text    = location.href;
+        
+        document.body.appendChild(dummy);
+        dummy.value = text;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+    }
+    </script>
+</html>
