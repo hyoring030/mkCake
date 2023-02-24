@@ -1,0 +1,21 @@
+.Title{
+	color:rgb(91, 34, 26);
+    text-align: center;
+    text-decoration: none  !important;
+    border: 5px solid rgb(233, 144, 129);
+}
+.Titlelink{
+    text-decoration: none  !important;
+}
+
+.Back{
+    color: #e46767;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu{
+    color: #6e4b4b;
+    text-align: center;
+    text-decoration: none;
+}
